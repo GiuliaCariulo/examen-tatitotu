@@ -3,6 +3,11 @@
 // ==================================== */
 
 :root {
+  --dark-blue: #2f2873;
+  --blue: #009fe3;
+  --light-blue: rgba(0, 159, 227, 0.3);
+  --white: #f7fdff;
+  --red: #ff0000;
 }
 
 /* ====================================
@@ -42,3 +47,17 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  color: var(--dark-blue);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+header {
+  background-color: var(--dark-blue);
+}
