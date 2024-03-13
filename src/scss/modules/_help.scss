@@ -1,4 +1,13 @@
 .help {
-  text-decoration: none;
   color: var(--blue);
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.help a {
+  text-decoration: none;
 }

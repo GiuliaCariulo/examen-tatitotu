@@ -2,9 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding: 20px;
+  font-weight: 300;
 }
 
 .nav-top {
@@ -12,4 +10,13 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 16px;
+}
+
+.nav-top span {
+  font-family: "Font Awesome";
+}
+
+.nav-top span.capital {
+  font-family: Inter, sans-serif;
+  text-transform: uppercase;
 }
