@@ -1,11 +1,11 @@
 .card {
-  background-color: var(--white);
+  background-color: $white;
   border-radius: 22px;
 }
 
 .card-title {
-  color: var(--white);
-  background-color: var(--dark-blue);
+  color: $white;
+  background-color: $dark-blue;
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
   height: 55px;

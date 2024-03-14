@@ -1,9 +1,10 @@
 .section-choice-header .all-sel {
   padding: 0;
+  color: $blue;
 }
 
 .section-choice-header {
-  background-color: rgba($blue, 0.5);
+  background-color: rgba($blue, 0.1);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

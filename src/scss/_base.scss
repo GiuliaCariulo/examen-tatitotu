@@ -3,15 +3,13 @@
 // ==================================== */
 
 :root {
-  --white: #f7fdff;
-  --dark-blue: #2f2873;
-  --blue: #009fe3;
-  --high-blue: #97d2eb;
-  --light-blue: rgba(0, 159, 227, 0.3);
-  --red: #ff0000;
 }
 
+$white: #f7fdff;
 $blue: #009fe3;
+$dark-blue: #2f2873;
+$high-blue: #97d2eb;
+$red: #ff0000;
 
 @font-face {
   font-family: "Font Awesome";
@@ -57,18 +55,18 @@ video {
 // ==================================== */
 
 body {
-  color: var(--dark-blue);
+  color: $dark-blue;
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background-color: var(--high-blue);
+  background-color: $high-blue;
 }
 
 header {
-  background-color: var(--dark-blue);
+  background-color: $dark-blue;
   margin-bottom: 60px;
 }
 
