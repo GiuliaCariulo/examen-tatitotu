@@ -54,6 +54,11 @@ video {
 // base rules
 // ==================================== */
 
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../ressources/font/Font\ Awesome\ 6\ Free-Solid-900.otf");
+}
+
 body {
   color: $dark-blue;
   text-align: center;
@@ -61,7 +66,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 100%;
   background-color: $high-blue;
 }
 
