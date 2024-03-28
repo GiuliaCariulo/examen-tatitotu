@@ -1,0 +1,23 @@
+.number-field input::-webkit-outer-spin-button,
+.number-field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-field input {
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  border: 0;
+}
+
+.number-field input::placeholder {
+  color: var(--dark-blue, #2f2873);
+  background-color: $white;
+}
+
+.number-field.inline,
+.number-field input::placeholder {
+  display: inline;
+}
