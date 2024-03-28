@@ -4,20 +4,25 @@
   margin: 0;
 }
 
+.number-field label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-family: "FontAwesome";
+}
+
 .number-field input {
   text-align: center;
   font-family: Inter;
   font-size: 25px;
   font-weight: 700;
   border: 0;
+  max-width: 40px;
 }
 
 .number-field input::placeholder {
   color: var(--dark-blue, #2f2873);
   background-color: $white;
-}
-
-.number-field.inline,
-.number-field input::placeholder {
-  display: inline;
 }
