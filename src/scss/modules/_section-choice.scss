@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  margin-top: 25px;
   border-radius: 8px;
 }
 .section-choice-title {
@@ -23,4 +24,8 @@
 
 .section-choice input {
   display: none;
+}
+
+.section-choice .col-4 {
+  border-bottom: 1px solid rgba($dark-blue, 0.1);
 }

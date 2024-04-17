@@ -16,21 +16,26 @@
   align-items: center;
 }
 
-.card-content-first {
-  padding: 0 20px 80px;
+.card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 45px 20px 60px;
+}
+
+.card-content-first {
   gap: 12px;
 }
 
 .card-content-second {
-  padding: 45px 20px 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 17px;
-  // background-color: red;
+}
+
+.card-content-second:first-child {
+  background-color: red;
+}
+
+.card-content-third {
+  gap: 25px;
 }

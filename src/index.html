@@ -49,7 +49,7 @@
             <div class="card">
               <h2 class="card-title">Mes verbes</h2>
               <div class="all-sel">Tout supprimer</div>
-              <div class="card-content-first">
+              <div class="card-content card-content-first">
                 <input
                   class="search"
                   type="text"
@@ -78,8 +78,8 @@
           <div class="col-6">
             <div class="card">
               <h2 class="card-title">Mes temps</h2>
-              <div class="row">
-                <div class="card-content-second">
+              <div class="card-content card-content-second">
+                <div class="row">
                   <div class="col-12">
                     <div class="section-choice-header">
                       <div class="section-choice-title">Indicatif</div>
@@ -193,6 +193,7 @@
                             Passé composé
                           </div>
                         </div>
+                        <div class="col-4"></div>
                       </div>
                     </div>
                   </div>
@@ -231,6 +232,8 @@
                             Passé
                           </div>
                         </div>
+
+                        <div class="col-4"></div>
                       </div>
                     </div>
                   </div>
@@ -295,6 +298,9 @@
                             Plus-que-parfait
                           </div>
                         </div>
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
                       </div>
                     </div>
                   </div>
@@ -384,6 +390,8 @@
                             Passé
                           </div>
                         </div>
+
+                        <div class="col-4"></div>
                       </div>
                     </div>
                   </div>
@@ -422,6 +430,8 @@
                             Passé
                           </div>
                         </div>
+
+                        <div class="col-4"></div>
                       </div>
                     </div>
                   </div>
@@ -432,28 +442,34 @@
           <div class="col-3">
             <div class="card">
               <h2 class="card-title">Mes options</h2>
-              <div class="number-field">
-                <p>Nombre de questions</p>
-                <label>
-                  +
-                  <input type="number" name="firstname" placeholder="20" />
-                  -
-                </label>
-              </div>
-              <div class="radio-button">
-                <label>
-                  <input type="radio" name="type" value="trouver" />
-                  <p>Trouver mode</p>
-                </label>
-                <label>
-                  <input type="radio" name="type" value="conjuguer" />
-                  <p>Conjuguer</p>
-                </label>
-              </div>
-              <div class="button">Sauvegarder mon défi</div>
-              <div class="button">Imprimer mon défi</div>
-              <div class="code-defi">
-                <input type="number" name="code-defi" placeholder="0865 2988" />
+              <div class="card-content card-content-third">
+                <div class="number-field">
+                  <p>Nombre de questions</p>
+                  <label>
+                    -
+                    <input type="number" name="firstname" placeholder="20" />
+                    +
+                  </label>
+                </div>
+                <div class="radio-button">
+                  <label>
+                    <input type="radio" name="type" value="trouver" />
+                    <p>Trouver mode</p>
+                  </label>
+                  <label>
+                    <input type="radio" name="type" value="conjuguer" />
+                    <p>Conjuguer</p>
+                  </label>
+                </div>
+                <div class="button">Sauvegarder mon défi</div>
+                <div class="button">Imprimer mon défi</div>
+                <div class="code-defi">
+                  <input
+                    type="number"
+                    name="code-defi"
+                    placeholder="0865 2988"
+                  />
+                </div>
               </div>
             </div>
           </div>
