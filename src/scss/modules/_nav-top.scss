@@ -12,11 +12,14 @@
   line-height: 16px;
 }
 
-.nav-top span {
-  font-family: "Font Awesome";
-}
-
 .nav-top span.capital {
   font-family: Inter, sans-serif;
   text-transform: uppercase;
+}
+
+.nav-top-menus {
+  position: absolute;
+  background-color: $white;
+  color: $dark-blue;
+  width: 246px;
 }

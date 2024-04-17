@@ -1,13 +1,12 @@
-.check-tense span {
-  font-family: "FontAwesome";
-  font-size: 22px;
-}
-
 .check-tense {
   margin: 10px 0;
   padding: 7px;
   display: flex;
   justify-content: left;
-  align-content: baseline;
+  align-items: center;
   gap: 10px;
+}
+
+.check-tense i {
+  font-size: 22px;
 }

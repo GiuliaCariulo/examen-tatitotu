@@ -1,9 +1,19 @@
 .radio-button {
   background-color: rgba($blue, 0.1);
-  padding: 26px 60px 18px;
+  padding: 26px 60px;
+  width: 100%;
   border-radius: 22px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: left;
+}
+
+.radio-button input {
+  display: none;
+}
+
+.radio-button i {
+  margin-right: 13px;
 }
