@@ -8,7 +8,9 @@
   background-color: rgba($blue, 0.1);
   padding: 26px 60px 18px;
   border-radius: 22px;
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .number-field label {
