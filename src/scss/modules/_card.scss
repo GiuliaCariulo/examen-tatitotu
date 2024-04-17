@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 45px 20px 60px;
+  padding: 0 20px 60px;
 }
 
 .card-content-first {
@@ -30,10 +30,11 @@
 
 .card-content-second {
   gap: 17px;
+  padding-top: 30px;
 }
 
 .card-content-third {
   gap: 25px;
-
   font-weight: 500;
+  padding-top: 55px;
 }

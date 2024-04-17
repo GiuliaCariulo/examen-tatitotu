@@ -19,7 +19,37 @@
 
 .nav-top-menus {
   position: absolute;
+  top: 48px;
+  left: 325px;
+  padding: 13px 6px 17px;
+  border-radius: 8px;
+  border: 2px solid $blue;
   background-color: $white;
   color: $dark-blue;
   width: 246px;
+  opacity: 0;
+}
+
+.nav-top-menu-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba($blue, 0.1);
+  color: $blue;
+  font-weight: 500;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+
+.nav-top-menu-title h2 {
+  color: $dark-blue;
+  font-weight: 600;
+}
+
+.nav-top-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px 20px 0;
+  gap: 12px;
 }
