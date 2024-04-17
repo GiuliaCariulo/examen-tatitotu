@@ -1,0 +1,49 @@
+.button-code {
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  max-height: 60px;
+}
+
+.button-code-intern {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  background-color: $dark-blue;
+  padding: 12px 20px 12px 20px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+.button-code-go {
+  color: $white;
+  background-color: black;
+  padding: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-code input {
+  width: 110px;
+  background-color: $dark-blue;
+  border: none;
+  min-height: 20px;
+}
+
+.button-code input::placeholder {
+  color: $white;
+  font-size: 20px;
+}
+
+.button-code-title {
+  text-transform: uppercase;
+  color: $high-blue;
+  font-size: 12px;
+}
