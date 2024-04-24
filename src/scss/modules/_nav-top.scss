@@ -60,6 +60,11 @@
   gap: 12px;
 }
 
+.nav-top-transition {
+  animation: normal;
+  // J'arrive pas à avancer puréééééééé
+}
+
 .nav-top-menu-button.is-active {
   color: $blue;
 }
