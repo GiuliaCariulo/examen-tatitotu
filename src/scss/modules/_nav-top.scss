@@ -17,10 +17,15 @@
   text-transform: uppercase;
 }
 
+.nav-top-menu-button {
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
 .nav-top-menus {
   position: absolute;
   top: 48px;
-  left: 325px;
+  left: 557px;
   padding: 13px 6px 17px;
   border-radius: 8px;
   border: 2px solid $blue;
@@ -28,6 +33,7 @@
   color: $dark-blue;
   width: 246px;
   opacity: 0;
+  transition: background-color 0.4s;
 }
 
 .nav-top-menu-title {
@@ -52,4 +58,12 @@
   align-items: flex-start;
   padding: 15px 20px 0;
   gap: 12px;
+}
+
+.nav-top-menu-button.is-active {
+  color: $blue;
+}
+
+.nav-top-menus.is-open {
+  opacity: 1;
 }
