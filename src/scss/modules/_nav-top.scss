@@ -19,21 +19,19 @@
 
 .nav-top-menu-button {
   cursor: pointer;
-  transition: background-color 0.4s;
 }
 
 .nav-top-menus {
   position: absolute;
-  top: 48px;
-  left: 557px;
+  top: 50px;
   padding: 13px 6px 17px;
   border-radius: 8px;
   border: 2px solid $blue;
   background-color: $white;
   color: $dark-blue;
   width: 246px;
+  animation: none;
   opacity: 0;
-  transition: background-color 0.4s;
 }
 
 .nav-top-menu-title {
@@ -60,9 +58,14 @@
   gap: 12px;
 }
 
-.nav-top-transition {
-  animation: normal;
-  // J'arrive pas à avancer puréééééééé
+@keyframes changeOpacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .nav-top-menu-button.is-active {
@@ -70,7 +73,6 @@
 }
 
 .nav-top-menus.is-open {
+  animation: changeOpacity 0.7s;
   opacity: 1;
 }
-
-// début de travail
